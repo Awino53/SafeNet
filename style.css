@@ -1,0 +1,216 @@
+  /* Reset & General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-transform: capitalize;
+}
+/* Logo Styling */
+.logo {
+    font-size: 2.1em; /* Adjust size */
+    font-weight: bold;
+    color: silver;
+    text-decoration: none;
+}
+
+.logo p{
+    font-size: 0.9em;
+    color: silver; /* Default text color */
+}
+
+.logo span:last-child {
+    color: #f5a623; /* Accent color for the forward slash */
+}
+
+
+/* Navigation */
+.navbar {
+    background: #0a0141;
+    padding: 10px 0;
+    position: fixed; /* Keeps navbar fixed at the top */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100; /* Ensures it stays above other content */
+    
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10 10px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: silver;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #f5a623;
+}
+
+/* Hero Section */
+.hero1{
+    filter: blur(5px);
+}
+img{
+    width: 100%;
+     
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    bottom: 320px;
+    color: silver;
+    
+}
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+ 
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #6e4504;
+    color: rgb(7, 4, 45);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #c2a16c;
+}
+
+/* About Section */
+ /* General Section Styling */
+#about {
+    margin-top: -400px;
+    padding: 80px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About Content */
+.about-content h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Why Choose Us */
+.about-content h3 {
+    font-size: 2rem;
+    color: #222;
+    margin-top: 40px;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 10px 0;
+}
+
+ 
+
+/* Services Section */
+.services-section {
+    padding: 50px 20px;
+    background: white;
+}
+
+.services-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.service-card {
+    background: #f5f5f5;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+    background: #0a0141;
+     color: silver;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-section a {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background: #08002b;
+     color: silver;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 14px;
+}
